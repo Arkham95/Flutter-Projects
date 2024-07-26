@@ -13,4 +13,5 @@ workflows:
       - name: Build iOS app
         script: flutter build ios --release
     artifacts:
-      - build/ios/iphoneos/Runner.app
+      - build/ios/iphoneos/Runner.ipa
+
