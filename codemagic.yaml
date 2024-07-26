@@ -1,7 +1,6 @@
 workflows:
   ios:
     name: iOS Build
-    description: Build iOS app
     environment:
       flutter: stable
     scripts:
