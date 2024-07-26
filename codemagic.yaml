@@ -4,11 +4,6 @@ workflows:
     environment:
       flutter: stable
     scripts:
-      - name: Install dependencies
-        script: |
-          flutter pub get
-          cd ios
-          pod install
       - name: Build iOS app
         script: flutter build ios --release
     artifacts:
